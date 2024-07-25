@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animations_pt1/core/helpers.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -52,10 +53,4 @@ class HomeScreen extends StatelessWidget {
   }
 }
 
-ButtonStyle? style() {
-  return ElevatedButton.styleFrom(
-    foregroundColor: Colors.white,
-    backgroundColor: Colors.black,
-    padding: const EdgeInsets.all(20),
-  );
-}
+

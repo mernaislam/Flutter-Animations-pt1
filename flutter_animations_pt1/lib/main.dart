@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animations_pt1/screens/animated_container_screen.dart';
 import 'package:flutter_animations_pt1/screens/home_screen.dart';
 
 void main() {
@@ -15,6 +16,7 @@ class AnimationsApp extends StatelessWidget {
       title: 'Flutter Demo',
       routes: {
         HomeScreen.id : (context) => const HomeScreen(),
+        AnimatedContainerScreen.id : (context) => const AnimatedContainerScreen(),
       },
       initialRoute: HomeScreen.id,
     );
