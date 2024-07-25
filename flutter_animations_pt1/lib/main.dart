@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations_pt1/screens/animated_container_screen.dart';
+import 'package:flutter_animations_pt1/screens/animated_opacity_screen.dart';
 import 'package:flutter_animations_pt1/screens/home_screen.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class AnimationsApp extends StatelessWidget {
       routes: {
         HomeScreen.id : (context) => const HomeScreen(),
         AnimatedContainerScreen.id : (context) => const AnimatedContainerScreen(),
+        AnimatedOpacityScreen.id : (context) => const AnimatedOpacityScreen(),
       },
       initialRoute: HomeScreen.id,
     );
