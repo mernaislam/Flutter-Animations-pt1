@@ -4,6 +4,7 @@ import 'package:flutter_animations_pt1/screens/animated_container_screen.dart';
 import 'package:flutter_animations_pt1/screens/animated_list_screen.dart';
 import 'package:flutter_animations_pt1/screens/animated_opacity_screen.dart';
 import 'package:flutter_animations_pt1/screens/animated_positioned_screen.dart';
+import 'package:flutter_animations_pt1/screens/animated_switcher_screen.dart';
 import 'package:flutter_animations_pt1/screens/animated_text_style_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -19,7 +20,7 @@ class HomeScreen extends StatelessWidget {
       AnimatedTextStyleScreen.id,
       AnimatedListScreen.id,
       AnimatedPositionedScreen.id,
-      'Animated Switcher',
+      AnimatedSwitcherScreen.id,
     ];
     return Scaffold(
       appBar: AppBar(
