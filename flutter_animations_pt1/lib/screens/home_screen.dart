@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations_pt1/core/helpers.dart';
+import 'package:flutter_animations_pt1/screens/animated_container_screen.dart';
+import 'package:flutter_animations_pt1/screens/animated_list_screen.dart';
+import 'package:flutter_animations_pt1/screens/animated_opacity_screen.dart';
+import 'package:flutter_animations_pt1/screens/animated_positioned_screen.dart';
+import 'package:flutter_animations_pt1/screens/animated_text_style_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -9,11 +14,11 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> animations = [
-      'Animated Container',
-      'Animated Opacity',
-      'Animated Default TextStyle',
-      'Animated List',
-      'Animated Positioned',
+      AnimatedContainerScreen.id,
+      AnimatedOpacityScreen.id,
+      AnimatedTextStyleScreen.id,
+      AnimatedListScreen.id,
+      AnimatedPositionedScreen.id,
       'Animated Switcher',
     ];
     return Scaffold(
