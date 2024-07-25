@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations_pt1/screens/animated_container_screen.dart';
+import 'package:flutter_animations_pt1/screens/animated_list_screen.dart';
 import 'package:flutter_animations_pt1/screens/animated_opacity_screen.dart';
 import 'package:flutter_animations_pt1/screens/animated_text_style_screen.dart';
 import 'package:flutter_animations_pt1/screens/home_screen.dart';
@@ -21,6 +22,7 @@ class AnimationsApp extends StatelessWidget {
         AnimatedContainerScreen.id : (context) => const AnimatedContainerScreen(),
         AnimatedOpacityScreen.id : (context) => const AnimatedOpacityScreen(),
         AnimatedTextStyleScreen.id : (context) => const AnimatedTextStyleScreen(),
+        AnimatedListScreen.id : (context) => const AnimatedListScreen(),
       },
       initialRoute: HomeScreen.id,
     );
